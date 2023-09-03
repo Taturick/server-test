@@ -7,7 +7,7 @@ const usuarios =[
     {id: 1, nome: "Ricardo", idade: 39},
     {id: 2, nome: "Tatu", idade: 40},
     {id: 3, nome: "Edson", idade: 43},
-    {id: 4, nome: "Francis", idade: 41}
+    {id: 4, nome: "Francis", idade: 41},
     
 ]
 

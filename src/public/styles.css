@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(120deg, #222, #059cdc);
+  color: #010000;
+  display: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1.titulo-cronometro {
+  font-size: 2rem;
+}
+
+/* Estilos para o texto do cronômetro */
+.cronometro-text {
+  font-size: 5rem;
+  /* Outros estilos, se necessário */
+}
+
+/* Estilos para os números do cronômetro */
+.numero-cronometro {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+    height: 200px;
+  width: 550px;
+  width: 5rem; /* Defina o tamanho desejado para cada número */
+  height: 5rem; /* Defina o tamanho desejado para cada número */
+  border-radius: 3px;
+  box-shadow: 0px 8px 10px rgba(0,0,0 .5);
+  background: transparent;
+  font-family: "Courier New", monospace;
+  color: #ff1e00;
+  /* Outros estilos, se necessário */
+}
+
+.retro-clock {
+  font-size: 10rem;
+  font-family: "Courier New", monospace;
+  color: #0c0211;
+  display: space-around;
+  align-items: center;
+  justify-content: center;
+  width: center; /* Defina o tamanho desejado para cada número */
+  height: 12rem; /* Defina o tamanho desejado para cada número */
+  background: linear-gradient(120deg, #222, #8b9ba2);
+  font-weight: bolder;
+  border-radius: 7px solid #1d1513; /* Borda */
+  margin: 0 0.2rem; /* Espaço entre os números */
+  border-radius: 0.2rem; /* Cantos arredondados */
+  padding: 0.2rem 0; /* Espaçamento interno */
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  font-size: 1rem;
+  background-color: #969491;
+  color: #000;
+  padding: 8px 16px;
+  border: 2px solid #0b0a03;
+  border-radius: 7px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #9289d1;
+}
